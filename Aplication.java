@@ -28,7 +28,7 @@ public class Aplication {
         // Afisam lista de studenti
         System.out.println("List of students:");
         for (Student student : students) {
-            System.out.println(student.getSurname() + " - " + student.getSurname()+ student.getAge() + " years old, majoring in " + student.getGender());
+            System.out.println(student.getSurname() + " - " + student.getSurname()+ student.getAge() + " years old, gender is " + student.getGender());
         }
 
 
@@ -51,6 +51,11 @@ public class Aplication {
             System.out.println("Enter student major:");
             String gender = scanner.nextLine();
             teachers.add(new Teacher(surname,lastname, age, gender));
+        }
+        // Afisam lista de profesori
+        System.out.println("List of teachers:");
+        for (Teacher teacher : teachers) {
+            System.out.println(teacher.getSurname() + " - " + teacher.getSurname()+ teacher.getAge() + " years old, gender is " + teacher.getGender());
         }
 
 
