@@ -4,7 +4,12 @@ public class Student {
     int age ;
     String gender;
 
-
+    public Student(String surname,String lastname, int age, String gender) {
+        this.surname = surname;
+        this.lastname = lastname;
+        this.age = age;
+        this.gender = gender;
+    }
 
 
 }

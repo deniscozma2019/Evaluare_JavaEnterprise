@@ -5,5 +5,4 @@ public class Teacher {
     int age ;
     String gender;
 
-
 }
