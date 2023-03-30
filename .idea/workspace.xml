@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd59a4a-b71c-4fda-a1f8-097367e930a9" name="Changes" comment="Create create a variable">
+    <list default="true" id="5dd59a4a-b71c-4fda-a1f8-097367e930a9" name="Changes" comment="Create a teacher constructor">
+      <change beforePath="$PROJECT_DIR$/Aplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +68,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680191520412</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create a student constructor">
+      <created>1680191850279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680191850279</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create a teacher constructor">
+      <created>1680191908443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680191908443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project structure" />
     <MESSAGE value="Create create a variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create create a variable" />
+    <MESSAGE value="Create a student constructor" />
+    <MESSAGE value="Create a teacher constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a teacher constructor" />
   </component>
 </project>
