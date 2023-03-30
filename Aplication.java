@@ -21,7 +21,7 @@ public class Aplication {
             int age = scanner.nextInt();
             scanner.nextLine();
 
-            System.out.println("Enter student major:");
+            System.out.println("Enter student gender:");
             String gender = scanner.nextLine();
             students.add(new Student(surname,lastname, age, gender));
         }
@@ -32,23 +32,20 @@ public class Aplication {
         }
 
 
-
-
-
         // Citim datele despre profesori de la tastatura si ii adaugam in lista teachers
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Enter student surname:");
+            System.out.println("Enter teacher surname:");
             String surname = scanner.nextLine();
 
-            System.out.println("Enter student lastname:");
+            System.out.println("Enter teacher lastname:");
             String lastname = scanner.nextLine();
 
-            System.out.println("Enter student age:");
+            System.out.println("Enter teacher age:");
             int age = scanner.nextInt();
             scanner.nextLine();
 
-            System.out.println("Enter student major:");
+            System.out.println("Enter teacher gender:");
             String gender = scanner.nextLine();
             teachers.add(new Teacher(surname,lastname, age, gender));
         }
